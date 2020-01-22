@@ -46,5 +46,7 @@ export const Message = styled.div`
   background-color: ${getBackgroundColor};
   border: 1px solid ${getBorderColor};
   border-radius: 4px;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.04),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.3);
   color: ${getColor};
 `

@@ -31,12 +31,7 @@ export const Code: React.FC<CodeProps> = ({
   focusedLines
 }) => {
   return (
-    <Highlight
-      {...defaultProps}
-      code={code.trim()}
-      language={language}
-      theme={theme}
-    >
+    <Highlight {...defaultProps} code={code} language={language} theme={theme}>
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <pre className={className} style={style}>
           {tokens.map((line, i) => (
