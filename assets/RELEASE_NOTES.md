@@ -13,7 +13,7 @@ Arbitrary release notes description containing meaningful information for develo
 
 > "Added" category is mainly informational as there is nothing to remove nor migrate. Users upgrading to this major version would be shown that these new things are now present with the links to browse their source code.
 
-- `generateTypeDefinitions` (+ reference link fixed to the release ~~commit~~ **tag** that points to this new API source code)
+- `generateTypeDefinitions` (+ reference link fixed to the release tag that points to this new API source code)
 
 ## Changed
 

@@ -7,13 +7,14 @@ html {
   /* Enable OpenType kerning */
   font-feature-settings: 'kern' 1;
   text-size-adjust: 100%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
   margin: auto;
   padding: 2rem;
 
+  color: #222;
   font-family: Inter;
   line-height: 1.6;
   width: 960px;
@@ -21,10 +22,55 @@ body {
 }
 
 pre {
-  padding: 1em;
+  padding: 2em 0;
   border-radius: 3px;
 
   font-family: 'JetBrains Mono';
   line-height: 1.5;
   white-space: pre-wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000;
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child) {
+  margin: 2em 0 0.5em;
+  letter-spacing: -0.01em;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p {
+  margin-top: 0;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 1em;
+
+  border-left: 2px solid #aaa;
+  color: #555;
+}
+
+a {
+  color: #2196f3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 4rem 0;
+  border: 1px solid #eee;
 }
