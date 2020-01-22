@@ -17,13 +17,13 @@ body {
   color: #222;
   font-family: Inter;
   line-height: 1.6;
-  width: 960px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 960px;
 }
 
 pre {
   padding: 2em 0;
-  border-radius: 3px;
+  border-radius: 4px;
 
   font-family: 'JetBrains Mono';
   line-height: 1.5;
