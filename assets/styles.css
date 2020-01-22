@@ -1,0 +1,30 @@
+html {
+  /* Antialiased text rendering */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Enable OpenType kerning */
+  font-feature-settings: 'kern' 1;
+  text-size-adjust: 100%;
+  font-size: 14px;
+}
+
+body {
+  margin: auto;
+  padding: 2rem;
+
+  font-family: Inter;
+  line-height: 1.6;
+  width: 960px;
+  max-width: 100%;
+}
+
+pre {
+  padding: 1em;
+  border-radius: 3px;
+
+  font-family: 'JetBrains Mono';
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
